@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./images-and-font/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-family: Norse-Bold, sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(./images-and-font/halie-west-25xggax4bSA-unsplash.jpg);
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.credit{
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.header{
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.center{
+    height: 30vh;
+    align-items: center;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.form-main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 180px;
+    border: 1px solid #E5E7EB;
+    height: 20px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1px solid Blue;   
+}
+
+input:invalid{
+    border: 1px solid Red;
+}
+
+label{
+    font-size: 10px;
+}
+
+#error{
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn{
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 5px;
+    height: 35px;
+    width: 150px;
+    font-weight: bolder;
+    font-size:small;
+    margin: 2%;
+}
+
+.footer{
+    height: 30vh;
+}
+
+.login{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2%;
+}
